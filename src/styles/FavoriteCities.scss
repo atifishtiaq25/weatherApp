@@ -1,0 +1,38 @@
+.favorite-cities {
+    margin-top: 20px;
+  
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+  
+    .city-cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center; 
+    }
+  
+    .city-card {
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+  
+      p {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+  
+      &:hover {
+        background-color: #e0e0e0;
+      }
+    }
+  
+    p {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+  }
