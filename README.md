@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### `How to navigate the app`
+
+Just run the project by the npm start command and once it is built and running, search for a city in the search bar and press either 'enter' or the 'Get Weather' button.
+
+The star icon next to the city name in the resuling data can be used to add or remove the city from 'favorite cities' list. The icon should change color when it is a favorited city but does not currently. 
+
+You can also click on the favorite city tile to load that city's current weather as well.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -18,14 +26,6 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `How to navigate the app`
-
-Just run the project by the npm start command and once it is built and running, search for a city in the search bar and press either 'enter' or the 'Get Weather' button.
-
-The star icon next to the city name in the resuling data can be used to add or remove the city from 'favorite cities' list. The icon should change color when it is a favorited city but does not currently. 
-
-You can also click on the favorite city tile to load that city's current weather as well.
 
 ### `npm run build`
 
